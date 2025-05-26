@@ -65,3 +65,5 @@ Select your project folder
 Google Apps Script
 
 Chrome Extensions Docs
+
+Mentors for project guidance
