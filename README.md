@@ -3,6 +3,13 @@
 This Chrome Extension lets you **highlight text** on any webpage and **save** it to a connected **Google Sheet** along with the page URL, title, and timestamp.
 
 ---
+## 📄 Google Sheet Link
+
+https://docs.google.com/spreadsheets/d/1ONuUPbyr1Z2Ui0-voB6q99B07QFgixGi5xxkRnllGQA/edit?usp=sharing
+
+
+--- 
+
 
 ## 🚀 Features
 
