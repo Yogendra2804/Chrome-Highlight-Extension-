@@ -1,19 +1,14 @@
 function doPost(e) {
-  try {
-    const sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
-    const data = JSON.parse(e.postData.contents);
+  Logger.log("POST RECEIVED");
 
-    const text = data.text || '';
-    const url = data.URL || '';
-    const title = data.title || '';
-    const time = data.time || new Date().toISOString();
+  const sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
 
-    sheet.appendRow([text, url, title, time]);
+  sheet.appendRow([
+    "TEST RECEIVED",
+    new Date()
+  ]);
 
-    return ContentService.createTextOutput("Success");
-  } catch (error) {
-    return ContentService.createTextOutput("Error: " + error.message);
-  }
+  return ContentService.createTextOutput("Success");
 }
 
 
